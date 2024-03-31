@@ -1,0 +1,31 @@
+.features-h1 {
+    font-size: 50px;
+}
+
+.description {
+    display: inline-block;
+    background-color: #212529;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 25px 0 25px;
+    word-wrap: break-word;
+    width: 65%;
+    border: 1px solid #4c2fa3;
+}
+
+.article {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+.small-title {
+    font-size: 26px;
+    margin: 10px 0 0 0;
+}
+
+.medium-title {
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}

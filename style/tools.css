@@ -1,0 +1,50 @@
+.features-h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.article {
+    display: block;
+    margin: 20px 0 20px 0;
+    border: 1px solid black;
+    padding: 10px 0 10px 0;
+}
+
+.description {
+    display: inline-block;
+    background-color: #212529;
+    padding: 5px;
+    margin: 0 25px 0 25px;
+    word-wrap: break-word;
+    width: 65%;
+    border: 1px solid #4c2fa3;
+}
+
+.medium-title {
+    display: inline;
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.author {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.gotobutton {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    width: 15%;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #472ea4;
+    border-radius: 10px;
+    background-color: #6B6982;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: center;
+    text-decoration: none;
+}

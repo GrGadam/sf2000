@@ -6,7 +6,6 @@
 .article {
     display: block;
     margin: 20px 0 20px 0;
-    border: 1px solid black;
     padding: 10px 0 10px 0;
 }
 
@@ -47,4 +46,9 @@
     word-wrap: break-word;
     text-align: center;
     text-decoration: none;
+}
+
+img {
+    width: 25%;
+    height: 25%;
 }

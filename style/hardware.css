@@ -1,0 +1,32 @@
+.table-container {
+    margin: 0 10% 0 10%;
+}
+
+.hwtable {
+    border: 1px solid #472ea4;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #472ea4;
+    padding: 5px;
+    font-size: 24px;
+    width: 50%;
+}
+
+tr {
+    background-color: #53516A;
+    border: 1px solid #472ea4;
+}
+
+td {
+    padding: 5px;
+    font-size: 22px;
+    border: 1px solid #472ea4;
+}
+
+h1 {
+    margin: 10px 0 10px 10%;
+}

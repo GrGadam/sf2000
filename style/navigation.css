@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #212529;
+}
+
+.home_button {
+    color: #b2b3eb;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.home_button:hover {
+    background-color: #212529;
+}
+
+.nav-item {
+    margin: 0 3px 0 3px;
+}
+
+.nav-link {
+    color: #cbcde4;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+a:hover {
+    background-color: #472ea4;
+}

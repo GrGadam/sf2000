@@ -1,0 +1,39 @@
+body {
+    background-color: #6B6982;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #4a4860;
+    height: fit-content;
+    color: white;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 60px;
+    color: white;
+    background-color: #4c2fa3;
+    margin: 10px 0 10px 0;
+    padding: 0 10% 0 10%;
+}
+
+img {
+    max-width:100%;
+    max-height: 400px;
+    margin-top: 10px;
+}
+
+.content {
+    border-top: 2px solid black;
+}

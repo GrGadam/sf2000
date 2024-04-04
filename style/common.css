@@ -18,6 +18,7 @@ body {
     height: fit-content;
     color: white;
     font-size: 18px;
+    border-top: 2px solid black;
 }
 
 .title {
@@ -32,8 +33,4 @@ img {
     max-width:100%;
     max-height: 400px;
     margin-top: 10px;
-}
-
-.content {
-    border-top: 2px solid black;
 }

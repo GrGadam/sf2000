@@ -1,5 +1,11 @@
+body {
+    background-color: #4a4860;
+}
+
 .content {
+    background-color: revert;
     overflow:auto;
+    border-top: none;
 }
 
 .sidebar-container {

@@ -3,3 +3,27 @@
     font-size: 100px;
     align-content: center;
 }
+
+.anchor {
+    color: revert;
+    text-decoration: none;
+}
+
+.anchor:focus .title-big {
+    background-color: #472ea4;
+}
+
+.code-block {
+    color: white;
+    font-size: 18px;
+    font-weight: 0;
+    font-family: monospace;
+    background-color: #4a4860;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 20px 0 15px;
+    margin: 5px;
+    border: 1px solid #6B6982;
+    border-radius: 5px;
+    white-space: pre-line;
+}

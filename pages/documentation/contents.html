@@ -6,21 +6,25 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        .title-big {
-            color: white;
-            font-size: 100px;
-            align-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./style/documentation_common.css">
 </head>
 <body>
-<h1 class="title-big">Contents</h1>
-<p>asd</p>
-<h1 class="title-big">Contents</h1>
-<h1 class="title-big">Contents</h1>
-<h1 class="title-big">Contents</h1>
-<h1 class="title-big">Contents</h1>
-<h1 class="title-big">Contents</h1>
+<a id="contents" class="anchor" href="#contents"><h1 class="title-big centered">Contents</h1></a>
+<div class="code-block">
+    <pre>
+// C Program to illustrate the main function with command line arguments
+#include &lt;stdio.h&gt;
+
+int main(int argc, char* argv)
+{
+    // printing the coundt of arguments
+    printf("The value of argc is %d\n", argc);
+    // prining each argument
+    for (int i = 0; i < argc; i++) {
+        printf("%s \n", argv[i]);
+    }
+    return 0;
+}</pre>
+</div>
 </body>
 </html>

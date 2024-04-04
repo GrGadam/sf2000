@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/navigation.css">
     <script src="/framework/js/jquery-3.7.1.min.js"></script>
-    <script src="/script/documentation.js"></script>
+    <script>
+        function load_content(page_name) {
+            $("#document_page").load(page_name);
+        }
+    </script>
 </head>
 <body onload="load_content('/pages/documentation/contents.html')">
 <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">

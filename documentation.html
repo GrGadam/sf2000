@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="style/documentation.css">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/navigation.css">
+    <script src="/framework/js/iframeResizer.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/script/documentation.js"></script>
 </head>
-<body>
+<body onload="load_content('/pages/documentation/contents.html')">
 <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
     <div style="margin-left: 10px;">
         <a class="home_button" href="index.html">SF2000</a>
@@ -50,7 +52,7 @@
     <!-- Left nav sidebar -->
     <div class="sidebar-container">
         <nav>
-            <a class="sidebar-title-big" onclick="load_content('/pages/documentation/contents.html')">Contents</a><br>
+            <a class="sidebar-title-big" onclick="load_content('/pages/documentation/contents.html')" href="#document_page">Contents</a><br>
             <!-- Hardware -->
             <a class="sidebar-title-medium">Hardware</a><br>
             <a class="sidebar-item">Processor</a><br>
@@ -65,10 +67,8 @@
             <a></a>
         </nav>
     </div>
-
     <!-- The opened docs page -->
     <div id="document_page">
-    asd
     </div>
 
 </div>

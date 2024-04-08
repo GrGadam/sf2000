@@ -1,7 +1,18 @@
 .title-big {
     color: white;
-    font-size: 100px;
+    font-size: 80px;
     align-content: center;
+}
+
+.title-medium {
+    color: white;
+    font-size: 60px;
+    align-content: center;
+}
+
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: #4c2fa3;
 }
 
 .anchor {
@@ -26,4 +37,61 @@
     border: 1px solid #6B6982;
     border-radius: 5px;
     white-space: pre-line;
+}
+
+
+.table-container {
+    width: 70%;
+}
+
+.table-container h1 {
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container table {
+    border: 1px solid #4c2fa3;
+    table-layout: fixed
+}
+
+.table-container th {
+    color: white;
+    background-color: #4c2fa3;
+    padding: 5px;
+}
+
+.table-container tr {
+    border: 1px solid #4c2fa3;
+    padding: 5px;
+}
+
+.table-container td {
+    color: white;
+    background-color: #53516A;
+    border: 1px solid #4c2fa3;
+    padding: 5px;
+    width: 5%;
+}
+
+.path {
+    margin: 0;
+    padding: 0;
+}
+
+.reference {
+    margin: 0;
+    padding: 0;
+}
+
+.reference a {
+    color: #9482c8;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.marking-list li {
+    font-size: 18px;
 }

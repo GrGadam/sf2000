@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style/documentation_common.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootloader</title>
+</head>
+<body>
+<a id="contents" class="anchor" href="#contents"><h1 class="title-big centered">Bootloader</h1></a>
+
+<div class="summary">
+    <p>The bootloader is stored on a small 4Mbit NOR FLASH chip (XMC 25QH40BZ1G)/XM25QH40</p>
+</div>
+
+<p>The firmware size is limited to 15MB</p>
+
+<div class="titled-list">
+    <p class="category-title-medium">I. Boot process</p>
+    <p>1. The firmware is read to address 0xa0000200</p>
+    <p>2. Main then checks for the 512 byte header to start with magic number 0x4746434c (LCFG)</p>
+    <p>3. Main copies this 512 bytes header to 0xa0f00000</p>
+    <p>4. shifts the length read from 0xa0000400 to 0xa0000200</p>
+    <p>5. calculates and checks CRC32 at offsets 0x184 and 0x18C</p>
+    <p>6. jumps to 0x80000200 (bisrv.asd load address and entry point)</p>
+</div>
+
+<div class="table-container">
+    <h1>Important addresses</h1>
+    <div class="reference"><a href="">by osaka</a></div>
+    <table>
+        <thead>
+        <tr>
+            <th>Address</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>0xa0000200</td>
+            <td>firmware read address</td>
+        </tr>
+        <tr>
+            <td>0x184</td>
+            <td>length</td>
+        </tr>
+        <tr>
+            <td>0x18c</td>
+            <td>CRC32</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
